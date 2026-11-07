@@ -1,0 +1,25 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow the example environment file
+!.env.example
+
+# SearXNG private configuration
+core-config/settings.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
